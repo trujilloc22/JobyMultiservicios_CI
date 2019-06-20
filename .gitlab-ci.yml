@@ -42,8 +42,8 @@ build:
   dependencies:
     - install
   script:
-    - npm run build:ci
     - npm i -g firebase-tools
+    - npm run build:ci    
   artifacts:
     expire_in: 1h
     paths:
